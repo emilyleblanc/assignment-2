@@ -1,0 +1,21 @@
+
+.about{
+    padding: 10% 0;
+    margin-bottom: 10%;
+
+.aboutContent{
+    p{
+        text-align: left;
+    }
+
+    button{
+        background-color: $robinEggBlue;
+        &:hover,
+        &:focus{
+            background-color: $spruce;
+            color: #fff;
+        }
+    }
+
+}
+}

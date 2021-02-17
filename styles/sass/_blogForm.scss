@@ -1,0 +1,46 @@
+fieldset {
+    border: 0;
+}
+
+legend {
+    display: none;
+}
+
+.blogForm {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+
+    input,
+    textarea {
+        background-color: $darkBlueGrey;
+        color: #FFF;
+        border-style: hidden;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+        &:focus {
+            background-color: $robinEggBlue;
+            color: $darkBlueGrey;
+        }
+    }
+
+    input {
+        border-bottom: 2px solid $robinEggBlue;
+    }
+
+    textarea {
+        border: 2px solid $robinEggBlue;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        background-color: $spruce;
+        color: #FFF;
+        &:hover,
+        &:focus{
+            background-color:$robinEggBlue;
+            color: $darkBlueGrey;
+        }
+    }
+}

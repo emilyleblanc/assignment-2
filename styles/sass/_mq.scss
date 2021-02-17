@@ -1,0 +1,487 @@
+// MEDIA QUERIES FOR IPAD
+
+@media(min-width:767px){
+    body {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    h1{
+        width: 40%;
+    }
+
+    h3{
+        font-size:3rem;
+    }
+
+    h4{
+        font-size:2.5rem
+    }
+
+    // PHONE MEDIA QUERIES FOR BLOG PAGE
+
+    header {
+        .heroImg {
+            position: relative;
+            width: 80%;
+            right: -25.5%;
+        }
+        margin-bottom: 0;
+    }
+
+    .blogHeader {
+        margin-bottom: 0;
+    }
+
+    .blogAside {
+        left: -87%;
+    }
+
+    .blogPost {
+        .blogPostImg {
+            img {
+                top:-100px;  
+                box-shadow: -41px 41px 0 $robinEggBlue;   
+            }
+        }
+    }
+
+    .blogPost {
+        border-top: 3px solid $robinEggBlue;
+        border-left: 3px solid $robinEggBlue;
+        border-bottom: 3px solid $robinEggBlue;
+        
+    }
+
+    .blogComments{
+        h4{
+            padding-left: 40px;
+        }
+    }
+
+    // PHONE MEDIA QUERIES FOR CONTACT FORM
+
+    .contactFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactForm{
+        top: -95px;
+        margin: 0 auto;
+        left: 3%;
+    }
+
+    .contactContainer{
+        ul{
+            margin-top: 0;
+        }
+    }
+
+}
+
+// MEDIA QUERIES FOR TABLET LANDSCAPE
+
+@media(min-width:1023px) {
+
+
+    
+    h1{
+        font-size: 13.8rem;
+        line-height: 12.6rem;
+    }
+
+    h4 {
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    nav ul {
+        display: contents;
+        li {
+            padding: 30px 0 0 0 ;
+        }
+    }
+
+    header {
+        .heroImg {
+            position: relative;
+            width: 80%;
+            right: -5.5%;
+            top: 25%;
+        }
+        margin-bottom: 10%;
+    }
+
+    label[for="toggle"] {
+        display: none;
+    }
+
+    // INDEX MEDIA QUERIS FOR LANDSCAPE
+
+    .indexContainer {
+        display: flex;
+        align-items: flex-start;
+        height: 80vh;
+    }
+
+    .about {
+        padding: 10px 0;
+    }
+
+    .aboutContent {
+        
+        P {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 80%;
+        }
+
+        button {
+            margin-top: 20px;
+        }
+    }
+
+    .exhibitFlex1,
+    .exhibitFlex2 {
+        display: flex;
+
+        .exContent1,
+        .exContent2 {
+            width: 70%;
+        }
+    }
+
+    .exImg1 {
+        position: relative;
+        left: -2.75%;
+    }
+
+    .exImg2 {
+        position: relative;
+        right: -2.75%;
+    }
+
+    .exhibitFlex2 {
+        flex-direction: row-reverse;
+
+        .exContent2 {
+            padding-right: 20px;
+        }
+    }
+
+    // change index blog references to preBlog...
+    .blogPreImgLg{
+        height:30%;
+    }
+
+    .blogPreFlex {
+        display: flex; 
+        align-items: center;
+    }
+
+    .blogPreImgSm {
+        margin-right: 50px;
+    }
+
+    .blogPreContent {
+        text-align: left;
+        width: 90%;
+
+        h3 {
+            text-align: left;
+        }
+    }
+
+    .galleryFlex {
+        flex-direction: row;
+
+        .galleryImg {
+            margin: 10px 10px;
+        }
+    }
+
+    // BLOG MEDIA QUERIES FOR LANDSCAPE
+
+    .mainBlogContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .blogAside {
+        position: inherit;
+        width: 40%;
+
+        i {
+            display: none;
+        }
+    }
+
+    .blogPost {
+        max-width: 85%;
+        margin: 0 0 40px 60px;
+        .blogPostImg {
+            img {
+                box-shadow: -36px 36px 0 $robinEggBlue;
+            }
+        }
+    }
+
+
+
+    .blogContent,
+    .blogComments {
+        padding: 0 25px;
+    }
+
+    nav a {
+    font-size: 2.5rem;
+    }
+
+    // MEDIA QUERIES FOR CONTACT PAGE LANDSCAPE
+
+    .contactHeader{
+        margin-bottom: 5%;
+    }
+
+    .contactFlex{
+        display: flex;
+        flex-direction: row-reverse;
+        
+
+        h5{
+            margin: 0;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.6rem;
+            line-height: 1.2;
+        }
+
+        ul{
+            margin: 0;
+        }
+
+        .contactForm{
+            left:40px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: justify;
+            input{
+                width: calc(50% - 10px);
+            }
+        }
+
+
+        .contactContainer{
+            text-align: left;
+            ul{
+                justify-content: flex-start;
+
+                a{
+                    padding-left: 0;
+                }
+                
+            }
+        }
+    }
+}
+
+// DESKTOP BREAKPOINT
+
+@media(min-width:1200px){
+
+    // DESKTOP MEDIA QUERIES FOR TYOPGRAPHY
+
+    h1 {
+        font-size: 13.8rem;
+        line-height: 12.6rem;
+    }
+    
+    h2 {
+        font-size: 8rem;
+        line-height: 9.2rem;
+    }
+    
+    h3 {
+        font-size: 4.2rem;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+        
+    h4 {
+            font-size: 3.2rem;
+            letter-spacing: 1px;
+    }
+
+    // DESKTOP MEDIA QUERIES FOR HEADER
+
+    nav {
+        margin-bottom: 10%;
+    }
+        
+    nav a {
+            font-size: 3.2rem;
+            text-align: center;
+            line-height: 2.9rem;
+            letter-spacing: 1px;
+    }
+        
+    button {
+            font-size: 2rem;
+            text-align: center;
+            line-height: 3.2rem;
+            letter-spacing: 1px;
+    }
+
+
+    header{
+        .heroImg{
+            right: -5.5%;
+            top:-4%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    // DESKTOP MEDIA QUERIES FOR ABOUT SECTION
+    
+    .about{
+        margin-top: 10%;
+    }
+
+    // DESKTOP MEDIAQUERIES FOR EXHIBITS
+
+    .exhibits{
+        padding-top: 5%;
+        padding-bottom: 0;
+
+        .exhibitFlex1 {
+            margin-bottom: 0;
+        }
+        
+        .exImg1{
+            top: -102px;
+            left: -2.25%;
+            img{
+                box-shadow: 40px 40px 0 $robinEggBlue;
+            }
+        }
+        .exImg2{
+            top: 50px;
+            right: -2.25%;
+            img{
+                box-shadow: -40px 40px 0 $robinEggBlue;
+            }
+        }
+    }
+
+    .exContent2{
+        align-self: center;
+    }
+    .exImg1,
+    .exImg2 {
+        width: 100%;
+    }
+
+
+    // DESKTOP MEDIA QUERIES FOR INFO SECTION
+    
+    .info{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .infoFlex{
+        width:calc(50% - 20px)
+    }
+
+    // DESKTOP MEDIA QUERIES FOR PREVIEW SECTION
+
+    .blogPreview {
+        margin-bottom: 5%;
+    }
+
+    .blogPreFlex{
+        padding-top: 5%;
+    }
+
+    .blogPreImgSm{
+        img{
+            box-shadow: 40px 40px 0 $robinEggBlue;
+        }
+    }
+    
+    // DESKTOP MEDIA QUERIES FOR GALLERY SECTION
+    
+    .gallery {
+        padding: 5% 0;
+    }
+    
+    // DESKTOP MEDIA QUERIES FOR BLOG FORM
+
+    .blogHeader {
+        margin-bottom: 0;
+    }
+
+    .blogTitle {
+        align-items: flex-start;
+    }
+
+    .blogPost {
+        .blogPostImg {
+            img {
+                top:-100px;  
+                box-shadow: -48px 48px 0 $robinEggBlue;   
+            }
+        }
+    }
+
+    .blogForm{
+        input{
+            width: calc(50% - 20px);
+        }
+    }
+
+    .contactTitle {
+        align-items: flex-start;
+    }
+
+    .contactForm {
+        form {
+            padding: 75px 50px 50px 50px;
+        }
+    }
+
+}    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

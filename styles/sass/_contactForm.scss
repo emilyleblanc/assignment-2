@@ -1,0 +1,51 @@
+.contactForm {
+    margin-bottom: 10%;
+    background-color: $spruce;
+    box-shadow: -18px 18px 0 $robinEggBlue;
+    position: relative;
+    top: -60px;
+    left: 5.5%;
+
+    p.beInTouch{
+        color:red;
+    }
+
+
+    input,
+    textarea {
+        background-color: $spruce;
+        color: #FFF;
+        border-style: hidden;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+            &:focus {
+                background-color: $robinEggBlue;
+                color: $darkBlueGrey;
+            }
+        }
+
+    input {
+        border-bottom: 2px solid $robinEggBlue;
+        &:valid{
+            border: none;
+        }
+    }
+
+    textarea {
+        border: 2px solid $robinEggBlue;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        background-color: $darkBlueGrey;
+        color: #FFF;
+        &:hover,
+        &:focus{
+            background-color: $robinEggBlue;
+            color: $darkBlueGrey;
+        }
+
+    }
+}
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under the Sea – Blog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- HEADER STARTS -->
+    <header class="blogHeader">
+        <div class="wrapper">
+            <nav>
+                <label for="toggle" aria-label="navigation bar">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </label>
+                <input type="checkbox" id="toggle" name="toggle">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="blogTitle">
+            <h2>blog</h2>
+        </div>
+    </header>
+
+    <!-- BLOG MAIN STARTS -->
+    <main class="mainBlogContainer wrapper">
+        <!-- BLOG ASIDE STARTS -->
+        <aside class="blogAside wrapper">
+            <div class="asideImg">
+                <img src="assets/side-blog-image.jpg" alt="crowd of people looking at whale shark side">
+                <div class="pullTabImg">
+                    <i class="fas fa-fish"></i>
+                </div>
+            </div>
+            <div class="asideContainer">
+                <div class="asideContent">
+                    <h5>about under the sea</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat accusantium consectetur fugit ratione culpa et.</p>
+                </div>
+                <div class="asideContent">
+                    <h5>recent posts</h5>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <!-- BLOG ASIDE ENDS -->
+        
+        <!-- BLOG CONTAINER -->
+        <div class="blogSection wrapper">
+
+            <!-- BLOG POST SECTION -->
+            <section class="blogPost">
+                <div class="blogPostImg">
+                    <img src="assets/blog-post-image.jpg" alt="red coral reef with clown-fish swimming close-by">
+                </div>
+                <div class="blogContent">
+                    <h3>discovering new species</h3>
+                    <p class="dateName">monday may 4th, 2020 by dieula</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo possimus vitae doloremque aut. Labore, veniam maxime quisquam sit consequuntur laudantium in corrupti, minima sapiente adipisci id ex quidem placeat cumque earum cupiditate doloremque, mollitia dignissimos nostrum quis pariatur magnam! Officia quasi, repellat ipsam deleniti quisquam aut. Repellat nulla quia illo quaerat doloremque laboriosam, saepe voluptatum inventore ut earum explicabo et deserunt itaque, pariatur eveniet velit illum sapiente eaque veniam aliquid a rem commodi natus dolor? Quo nam illum facilis esse.</p>
+                </div>
+                
+            </section>
+
+            <!-- BLOG COMMENT SECTION -->
+            <section class="blogComments">
+                <h4>comments:</h4>
+                <div class="commentContainer">
+                    <div class="commentImg">
+                        <img src="assets/comment-1.jpg" alt="user profile photo">
+                    </div>
+                    <div class="commentText">
+                        <p class="dateName">monday october 9th, 2020 by jeremy</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda placeat minima corrupti quasi nostrum sint voluptatibus? Quae corrupti, officiis laboriosam possimus quidem impedit ipsum eius ex et libero nulla saepe ducimus doloremque iusto. Repellendus.</p>
+                    </div>
+                </div>
+                <div class="commentContainer">
+                    <div class="commentImg">
+                        <img src="assets/comment-2.jpg" alt="user profile photo">
+                    </div>
+                    <div class="commentText">
+                        <p class="dateName">monday october 10th, 2020 by julia</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda placeat minima corrupti quasi nostrum sint voluptatibus? Quae corrupti, officiis laboriosam possimus quidem impedit ipsum eius ex et libero nulla saepe ducimus doloremque iusto. Repellendus.</p>
+                    </div>
+                </div> 
+                <div class="commentContainer">
+                    <div class="commentImg">
+                        <!-- js goes here -->
+                    </div>
+                    <div class="commentText">
+                        <p class="dateName">
+                            <!-- js goes here -->
+                        </p>
+                        <p>
+                            <!-- js goes here -->
+                        </p>
+                    </div>
+                </div> 
+            </section>
+            
+            <!-- BLOG FORM SECTION -->
+            <form class="blogForm" action="#" method="GET">
+                <fieldset>
+                    <legend>enter your information to post a comment</legend>
+                    <div class="nameEmail">
+                        <label for="userName" class="sr-only"></label>
+                        <input type="text" name="userName" id="userName" placeholder="Name" required>
+                        
+                        <label for="userEmail" class="sr-only"></label>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="Email address" required>
+                    </div>
+                        
+                    <label for="commentBox" class="sr-only"></label>
+                    <textarea name="commentBox" id="commentBox" cols="30" rows="10" placeholder="Message" maxlength="600" required></textarea>
+                    
+                    <label for="submit" class="sr-only"></label>
+                    <button type="submit" id="submit">Post Comment</button>
+                </fieldset>
+            </form>
+        </div>
+        <!-- BLOG CONTAINER ENDS-->
+
+
+    </main>
+    <!-- BLOG MAIN ENDS -->
+    
+    <!-- START OF FOOTER -->
+    <footer>
+        <p>Copyright &copy 2021 Juno</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/016d83bf62.js" crossorigin="anonymous"></script>
+    <script src="./blog-app.js"></script>
+</body>
+</html>

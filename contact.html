@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under the Sea – Contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <!-- HEADER STARTS -->
+    <header class="contactHeader">
+        <div class="wrapper">
+            <nav>
+                <label for="toggle" aria-label="navigation bar">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </label>
+                <input type="checkbox" id="toggle" name="toggle">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contactTitle">
+            <h2>Get in touch</h2>
+        </div>
+    </header>
+    <div class="wrapper contactFlex">
+        <div class="contactForm">
+            <form action="#" method="GET">
+                <fieldset>
+                    <legend>enter your information to contact under the sea</legend>
+                    <label for="userName" class="sr-only"></label>
+                    <input type="text" name="userName" id="userName" placeholder="Name" required>
+                    
+                    <label for="userEmail" class="sr-only"></label>
+                    <input type="email" name="userEmail" id="userEmail" placeholder="Email address" required>
+                    
+                    <label for="commentBox" class="sr-only"></label>
+                    <textarea name="commentBox" id="commentBox" cols="30" rows="10" placeholder="Message"></textarea>
+
+                    <div class="messageJS">
+
+                        <!-- Js goes here with message reading "We will be in touch." -->
+                    </div>
+                    
+                    <label for="submit" class="sr-only"></label>
+                    <button type="submit" id="submit">submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <aside class="contactAside">
+            <div class="contactContainer">
+                <ul>
+                    <li><a href="https:www.facebook.com/underthesea" aria-label="go to under-the-sea facebook page"><i aria-hidden="true" class="fab fa-facebook-f"></i></a></li>
+                    
+                    <li><a href="https:www.instagram.com/underthesea" aria-label="go to under-the-sea instagram page"><i aria-hidden="true" class="fab fa-instagram"></i></a></li>
+                    
+                    <li><a href="https:www.twitter.com/underthesea" aria-label="go to under-the-sea twitter page"><i aria-hidden="true" class="fab fa-twitter"></i></a></li>
+                
+                    <li><a href="https:www.whatsapp.com/underthesea" aria-label="go to under-the-sea whatsapp"><i aria-hidden="true" class="fab fa-whatsapp"></i></a></li>
+                </ul>
+                <div class="contactInfo">
+                   <a href="#"><h5>info@email.com</h5></a>
+                    <p>123-456-7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V 2D5</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>Copyright &copy 2021 Juno</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/016d83bf62.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

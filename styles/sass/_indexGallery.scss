@@ -1,0 +1,33 @@
+.gallery {
+    background-color: $spruce; 
+    padding: 10% 0;  
+}
+
+.galleryFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.galleryImg {
+    width:max-content;
+    margin: 10px 0;
+}
+
+.radius{
+    border-radius: 50%;
+    transition: all 2s;
+
+}
+
+// .overlay{
+//     width: 100%;
+//     background-color: red;
+// }
+
+.fishFact{
+    color: #fff;
+    background-color: $spruce;
+    font-size: 2rem;
+}

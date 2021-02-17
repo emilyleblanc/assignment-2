@@ -1,0 +1,38 @@
+.blogPreview{
+    margin-bottom: 10%;
+}
+
+.blogPreImgLg{
+    height:30vh;
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.blogPreImgSm{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    top:-22px;
+    img{
+        box-shadow: 20px 20px 0 $robinEggBlue;
+    }
+
+}
+
+.blogPreContent{
+    p{
+        text-align: justify;
+    }
+    button{
+        background-color:$robinEggBlue;
+        &:hover,
+        &:focus{
+            background-color: $spruce;
+            color: #fff;
+        }
+    }
+}
+
+    
